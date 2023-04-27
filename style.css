@@ -1,0 +1,140 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	display: block;
+	justify-content: center;
+	margin-left: 10%;
+}
+
+.childBody {
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.copyRightMark {
+	margin-top: 10px;
+}
+
+.socialMediaIcons {
+	margin-top: 10px;
+}
+
+.mainBox {
+  display: flex;
+  flex-flow: column;
+  background-color: azure;
+}
+
+.card.customCard {
+	background-color:azure;
+}
+
+.mainBox .row.header {
+  flex: 0 1 auto;
+}
+
+.mainBox .customRow.customContent {
+    flex: 1 1 auto;
+	width: 100%;
+	margin: auto;
+}
+
+.mainBox .customRow.customFooter {
+  margin-top: 10px;
+  flex: 0 1 100px;
+  height: 100%;
+}
+
+.logoImage {
+	opacity: 0.5;
+}
+
+.topImage {
+	margin-top: 8%;
+}
+
+.card.titleCard {
+	border-width: 0px;
+}
+
+.footerCustom {
+	position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	margin-top: 5px;
+    background-color: lightblue;
+    height: 100%;
+	
+}
+
+.customCard:hover { 
+    opacity: 0.9; 
+	border-color: black;
+	border-style: double;
+	border-width: 4px;
+}
+
+.navbarCustom {
+	margin: auto;
+	background-color: #e1ebce;
+}
+
+.navbar-light .navbar-nav .nav-link.navFont {
+	color: white;
+}
+
+.navigation {
+	padding: 20px;
+	margin-bottom: 5px;
+	float: right;
+	color: gold;
+	
+}
+
+.cardWraper{
+	justify-content: center;
+	margin: auto;
+	margin-top: 20px;
+	align-items: center;
+	flex: 1 1 auto;
+	flex-direction: row;
+	display: flex;
+	width: 95%;
+}
+
+footer {
+	background-color:darkgrey;
+	text-align: center;
+	color: white;
+}
+
+@media (max-width: 600px) {
+	section {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color:darkorange;
+	height: 50%;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-family: monospace;
+	font-size: 30px;
+}
+
+a {
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
